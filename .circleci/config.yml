@@ -14,8 +14,8 @@ jobs:
 workflows:
     build-and-test:
       jobs:
-        - build-and-test
-          filters: 
-            branches: 
-              only: 
-                - test-v1.2.x
+        - build-and-test:
+            filters:
+              branches:
+                only:
+                  - master
