@@ -18,4 +18,4 @@ workflows:
             filters:
               branches:
                 only:
-                  - test-v1.2.*
+                  - test-v1.2.x
